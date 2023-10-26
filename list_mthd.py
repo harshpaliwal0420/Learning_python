@@ -15,5 +15,7 @@ l.insert(3, 999)
 print(l)
 
 x = [122, 322, 343, 4454, 5656]
-x.extend(l)
+# x.extend(l)
 print(x)
+k = x + l
+print(k)
